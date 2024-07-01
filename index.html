@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background"></div>
+    <img src="Bird.png" alt="Bird.png" class="bird" id="bird-1">
+    
+    <div class="difficulty-selection" id="difficulty-selection">
+        <p>Select Difficulty Level</p>
+        <button class="difficulty-button" id="easy">Easy</button>
+        <button class="difficulty-button" id="medium">Medium</button>
+        <button class="difficulty-button" id="hard">Hard</button>
+    </div>
+
+    <div class="message" id="message">
+        <p>RULE BOX</p><p>Press "Enter" To Start Game</p> <p>Use "<span style="color: red;">&uarr;</span> ArrowUp" key to Control the Bird</p>
+    </div>
+
+    <div class="score">
+    <span class="score_title"></span>
+    <span class="score_val"></span>
+    </div>
+
+</body>
+</html>
